@@ -16,14 +16,14 @@ var presidents = {
 
 console.log(presidents.lastFive[2].firstName + presidents.lastFive[2].lastName);
 
-// Function declaration
+// Function 1: declaration
 function howdy(name) {
     return name + ' says hi!';
 }
 
 console.log(howdy('Kenia Escobar'));
 
-// if statement
+// Function 2
 var string = ['7', 'seventy', 'university'];
 
 for (var i = 0) {
@@ -37,3 +37,10 @@ for (var i = 0) {
         console.log("7, what a perfect choice!");
     }
 }
+
+// Function 3
+function inception(display, favMovie) {
+    display(favMovie);
+}
+
+console.log('Heathers is a fantastic movie');
