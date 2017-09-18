@@ -16,9 +16,24 @@ var presidents = {
 
 console.log(presidents.lastFive[2].firstName + presidents.lastFive[2].lastName);
 
-// Functions
+// Function declaration
 function howdy(name) {
     return name + ' says hi!';
 }
 
 console.log(howdy('Kenia Escobar'));
+
+// if statement
+var string = ['7', 'seventy', 'university'];
+
+for (var i = 0) {
+    if (string[i].length < 7) {
+        console.log('What a short little word!');
+    }
+    if (string[i].length > 7) {
+        console.log("I'm sorry but that's too many words to count");
+    }
+    if (string[i].length = 7) {
+        console.log("7, what a perfect choice!");
+    }
+}
